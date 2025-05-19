@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CrudEstadoCidadeUsuario.Models.Estado>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Estados</h1>
+
+<div class="mb-4 mt-4">
+    <a class="bg-success w-25 text-center text-light rounded-3 p-3 text-decoration-none" asp-action="Create">
+        Novo Estado
+    </a>
+</div>
+
+<table class="table bg-dark text-light rounded-3">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sigla)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sigla)
+            </td>
+                <td class="row gap-3 me-2">
+                    <a class="bg-warning rounded-3 text-decoration-none text-dark p-1 col" asp-action="Edit" asp-route-id="@item.IdEstado">Editar</a> |
+                    <a class="bg-primary rounded-3 text-decoration-none text-light p-1 col" asp-action="Details" asp-route-id="@item.IdEstado">Detalhes</a> |
+                    <a class="bg-danger rounded-3 text-decoration-none text-light p-1 col" asp-action="Delete" asp-route-id="@item.IdEstado">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
