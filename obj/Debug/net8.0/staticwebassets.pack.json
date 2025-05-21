@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\img\\bootstrap.png"
     },
     {
+      "Id": "C:\\Users\\kayky\\source\\repos\\CrudEstadoCidadeUsuario\\CrudEstadoCidadeUsuario\\wwwroot\\img\\cidade.png",
+      "PackagePath": "staticwebassets\\img\\cidade.png"
+    },
+    {
+      "Id": "C:\\Users\\kayky\\source\\repos\\CrudEstadoCidadeUsuario\\CrudEstadoCidadeUsuario\\wwwroot\\img\\cliente.png",
+      "PackagePath": "staticwebassets\\img\\cliente.png"
+    },
+    {
+      "Id": "C:\\Users\\kayky\\source\\repos\\CrudEstadoCidadeUsuario\\CrudEstadoCidadeUsuario\\wwwroot\\img\\estado.png",
+      "PackagePath": "staticwebassets\\img\\estado.png"
+    },
+    {
       "Id": "C:\\Users\\kayky\\source\\repos\\CrudEstadoCidadeUsuario\\CrudEstadoCidadeUsuario\\wwwroot\\img\\menuApple.png",
       "PackagePath": "staticwebassets\\img\\menuApple.png"
     },

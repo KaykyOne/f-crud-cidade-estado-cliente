@@ -260,3 +260,4 @@ C:\Users\kayky\source\repos\CrudEstadoCidadeUsuario\CrudEstadoCidadeUsuario\bin\
 C:\Users\kayky\source\repos\CrudEstadoCidadeUsuario\CrudEstadoCidadeUsuario\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\kayky\source\repos\CrudEstadoCidadeUsuario\CrudEstadoCidadeUsuario\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kayky\source\repos\CrudEstadoCidadeUsuario\CrudEstadoCidadeUsuario\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\kayky\source\repos\CrudEstadoCidadeUsuario\CrudEstadoCidadeUsuario\obj\Debug\net8.0\CrudEstadoCidadeUsuario.sourcelink.json
